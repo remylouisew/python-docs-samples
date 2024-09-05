@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------
 
 substitutions:
-  _IMAGE: samples/dataflow/pytorch-gpu:latest
+  _IMAGE: us-central1-docker.pkg.dev/cool-machine-learning/axlearn/axlearn-dataflow:remyw-6a14d7
 
 steps:
 - name: gcr.io/cloud-builders/docker
